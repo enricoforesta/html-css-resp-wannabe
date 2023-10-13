@@ -127,3 +127,19 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ .container{
+    width: 100%;
+}
+
+ /* TABLET 768PX */
+@media screen and (max-width: 768px) {
+
+    .container{
+        width: 768px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+ /* /TABLET 768PX */
