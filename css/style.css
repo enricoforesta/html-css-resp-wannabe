@@ -128,9 +128,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-    .container{
-        max-width:100%;
+@media screen and (max-width: 1140px) {
+
+    .container {
+        width: 100%;
     }
+}
+
 /* TABLET 768PX */
 @media screen and (max-width: 768px) {
 
@@ -139,45 +143,54 @@ img {
     }
 
 }
+
 /* /TABLET 768PX */
 
-    /* MOBILE 480PX */
-@media screen and ( max-width: 480px){
-    .why-us{
+/* MOBILE 480PX */
+@media screen and (max-width: 480px) {
+
+
+    .why-us {
         background-color: #222222;
-        padding: 3em 0;
+        padding: 3rem 0;
         margin: 0;
     }
-    .steps{
+
+    .steps {
         margin: 0;
     }
-    .row{
+
+    .row {
         display: block;
     }
-    
-    .row .col{
+
+    .row .col {
         width: 100%;
     }
 
-    p{
-        font-size: 21px;
+    p {
+        font-size: 1.3125rem;
     }
 
-    h1{
-        font-size: 3.4em;
+    h1 {
+        font-size: 3.4rem;
     }
 
-    h2{
-        font-size: 2.7em;
+    h2 {
+        font-size: 2.7rem;
     }
-    h3{
-        font-size: 2em;
+
+    h3 {
+        font-size: 2rem;
     }
-    .card{
+
+    .card {
         margin: 50px 0;
     }
-    .col-left{
+
+    .col-left {
         margin-bottom: 50px;
     }
+
     /* MOBILE 480PX */
 }
